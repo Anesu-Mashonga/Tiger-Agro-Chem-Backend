@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guidelines",
+  "info": {
+    "singularName": "guideline",
+    "pluralName": "guidelines",
+    "displayName": "Scheme"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "guideline_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Planting",
+        "Pest Control",
+        "Fertilization"
+      ]
+    },
+    "Description": {
+      "type": "string"
+    },
+    "pdf_document": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tag": {
+      "type": "enumeration",
+      "enum": [
+        "Workshop",
+        "Seminar",
+        "Field Day"
+      ]
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    }
+  }
+}
