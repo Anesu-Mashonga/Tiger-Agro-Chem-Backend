@@ -33,7 +33,7 @@
       ]
     },
     "Description": {
-      "type": "string"
+      "type": "text"
     },
     "pdf_document": {
       "type": "media",
