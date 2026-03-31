@@ -30,6 +30,11 @@
     },
     "Location": {
       "type": "string"
-    }
+    },
+    "status": {
+  "type": "enumeration",
+  "enum": ["Upcoming", "Completed"],
+  "default": "Upcoming"
+}
   }
 }
