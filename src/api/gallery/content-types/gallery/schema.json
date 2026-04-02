@@ -32,7 +32,7 @@
       ]
     },
     "Description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

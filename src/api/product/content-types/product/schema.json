@@ -41,6 +41,9 @@
         "Plant growth regulators",
         "Biostimulators"
       ]
+    },
+    "Composition": {
+      "type": "text"
     }
   }
 }
