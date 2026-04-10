@@ -14,12 +14,11 @@
     "Category": {
       "type": "enumeration",
       "enum": [
-        "CSR",
         "Factory",
         "Field Days",
-        "Sponsorship",
         "Staff"
-      ]
+      ],
+      "required": true
     },
     "gallery_media": {
       "type": "media",
@@ -29,10 +28,12 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "required": true
     },
     "Description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }

@@ -19,16 +19,20 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "required": true
     },
     "Name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Price": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true
     },
     "Category": {
       "type": "enumeration",
@@ -40,10 +44,12 @@
         "Acaricides",
         "Plant growth regulators",
         "Biostimulators"
-      ]
+      ],
+      "required": true
     },
     "Composition": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }

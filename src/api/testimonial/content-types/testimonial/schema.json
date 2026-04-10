@@ -14,16 +14,20 @@
     "Rating": {
       "type": "decimal",
       "min": 0.5,
-      "max": 5
+      "max": 5,
+      "required": true
     },
     "Testimonial": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Profession": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

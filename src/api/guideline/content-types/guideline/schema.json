@@ -19,10 +19,12 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "required": true
     },
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Category": {
       "type": "enumeration",
@@ -33,14 +35,16 @@
       ]
     },
     "Description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "pdf_document": {
       "type": "media",
       "multiple": true,
       "allowedTypes": [
         "files"
-      ]
+      ],
+      "required": true
     }
   }
 }
